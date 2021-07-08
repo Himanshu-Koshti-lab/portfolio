@@ -7,11 +7,11 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <h1>Welcome From Himanshu Koshti</h1>
-        <nav >
-          <ul>
+        <h1 className="App-header">Welcome From Himanshu Koshti</h1>
+        <nav className="nav-bar navbar-expand-lg navbar-light bg-light ">
+          <ul className="navbar-nav">
             <li>
-              <Link to={"/"} className="nav-link">
+              <Link to={"/"} className="nav-link ">
                 Home
               </Link>
             </li>
