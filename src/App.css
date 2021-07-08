@@ -13,6 +13,46 @@
   }
 }
 
+li {
+  align-items: right;
+  justify-content: right;
+}
+
+.Card {
+  display: inline-block;
+  margin: 5%;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+h1 {
+  overflow: hidden;
+}
+img {
+  float: left;
+  margin: 10% 5%;
+  width: 200px;
+  border-radius: 100px;
+  padding: 5px;
+  background: #000;
+}
+
+hr {
+  background: gray;
+  padding: 5px;
+  margin: 0;
+}
+
+li:hover {
+  background: lightgray;
+}
+
 .App-header {
   background-color: #365ead;
   align-items: center;
