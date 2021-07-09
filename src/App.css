@@ -21,12 +21,9 @@ li:hover {
   background: lightgray;
 }
 
-.grid-container {
+.card {
   display: inline-block;
-  margin-top: 20px;
-  width: 50%;
   border-radius: 20px;
-  box-shadow: 20px 20px 50px grey;
 }
 
 .App-header {
@@ -36,4 +33,10 @@ li:hover {
   padding: 10px 0;
   color: white;
   margin: 0;
+}
+
+@media screen and (min-width: 786px) {
+  .grid-container {
+    width: 50%;
+  }
 }

@@ -5,7 +5,7 @@ import Profile from "../images/profile-pic.jpg";
 class About extends Component {
   render() {
     return (
-      <div className="grid-container card">
+      <div className="card">
         <div className="item2 ">
           <img src={Profile} alt="Profile-pic" />
         </div>
