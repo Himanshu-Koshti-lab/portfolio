@@ -10,9 +10,10 @@ class About extends Component {
           <img src={Profile} alt="Profile-pic" />
           <h1>Himanshu Koshti</h1>
           <p>
-            Hi, I am Computer Science Engineer. I complete my graduation in 2020
-            from Global Engineering College, Jabalpur. Currently Working in Tata
-            Consultancy Services as Assistant System Engineer.
+            Hi, I have graduation in Computer Science Engineer in 2020 from
+            Global Engineering College, Jabalpur. Currently Working in Tata
+            Consultancy Services as Assistant System Engineer. Activly looking
+            for Web Devepment company for ...
           </p>
         </section>
       </div>
