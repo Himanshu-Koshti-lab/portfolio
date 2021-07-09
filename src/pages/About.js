@@ -5,9 +5,11 @@ import Profile from "../images/profile-pic.jpg";
 class About extends Component {
   render() {
     return (
-      <div>
-        <section className="Card">
+      <div className="grid-container card">
+        <div className="item2 ">
           <img src={Profile} alt="Profile-pic" />
+        </div>
+        <div className="item3">
           <h1>Himanshu Koshti</h1>
           <p>
             Hi, I have graduation in Computer Science Engineer in 2020 from
@@ -15,7 +17,7 @@ class About extends Component {
             Consultancy Services as Assistant System Engineer. Activly looking
             for Web Devepment company for ...
           </p>
-        </section>
+        </div>
       </div>
     );
   }

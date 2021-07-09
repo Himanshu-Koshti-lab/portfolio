@@ -2,45 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-li {
-  align-items: right;
-  justify-content: right;
-}
-
-.Card {
-  display: inline-block;
-  margin: 5%;
-  width: 50%;
-  align-items: center;
-  justify-content: center;
-}
 p {
-  overflow: hidden;
-  align-items: center;
-  justify-content: center;
-  height: auto;
-}
-h1 {
-  overflow: hidden;
+  padding: 20px;
 }
 img {
-  float: left;
   margin: 10% 5%;
   width: 200px;
   border-radius: 100px;
-  padding: 5px;
-  background: #000;
 }
 
 hr {
@@ -53,6 +21,14 @@ li:hover {
   background: lightgray;
 }
 
+.grid-container {
+  display: inline-block;
+  margin-top: 20px;
+  width: 50%;
+  border-radius: 20px;
+  box-shadow: 20px 20px 50px grey;
+}
+
 .App-header {
   background-color: #365ead;
   align-items: center;
@@ -60,17 +36,4 @@ li:hover {
   padding: 10px 0;
   color: white;
   margin: 0;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
